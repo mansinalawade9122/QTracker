@@ -1,0 +1,111 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-image: linear-gradient(to right, #fcdec7, #ed6d0c);
+/*	background-color: transparent;*/
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.main{
+  height: 500vh;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	background-image: url("https://wallpapers.com/images/featured/college-background-4ucekkclp0tepcan.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+
+}
+
+.navbar-brand{
+	font-size: 30px;
+	font-family: Arial Black;
+}
+
+.q{
+	color: orange;
+	font-size: 50px;
+}
+
+.tracker{
+	color: royalblue;
+}
+
+.nav-links{
+	font-size: 25px;
+	margin-left: 25px;
+	color: royalblue;
+	font-weight: bolder;
+}
+
+
+.navbar-nav{
+	font-size: 22px;
+	color: royalblue;
+	font-family: Arial Black;
+	font-weight: bolder;
+}
+
+.homepageinfo{
+	position: relative;
+	top: 100px;
+	z-index: -4;
+}
+
+.heading{
+	color: orange;
+	margin-top: 40px;
+	font-family: Arial Black;
+	font-size: 40px;
+}
+
+.info{
+	font-size: 24px;
+	padding: 50px;
+	font-weight: bolder;
+}
+
+.mycaro{
+	width: 800px;
+}
+
+.heading2{
+	font-size: 25px;
+	color: royalblue;
+}
+
+.courseinfo{
+	margin-left: 100px;
+}
+
+.courseinfo{
+	margin-left: 1050px;
+}
+
+.courseinfo ul li{
+	font-size: 20px;
+}
+
+.course-content{
+	margin-left: 150px;
+}
+
+
+
+/*.syllabus-collapse{
+	width: 90%;
+	height: 100vh;
+}*/
+
